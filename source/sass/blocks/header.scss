@@ -1,0 +1,59 @@
+.header {
+  background-color: #1b2d37;
+  background-image: url("../../img/header-background-desktop1x.jpg");
+  background-size: cover;
+  min-height: 700px;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: $color-white;
+}
+
+.header__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.header__topLogo {
+  margin-right: auto;
+}
+
+.nav {
+  display: flex;
+  gap: 120px;
+  list-style: none;
+}
+
+.nav__link {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+.promo {
+  display: flex;
+  padding: 190px 50px;
+}
+
+.promo__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 58px;
+  color: #ffffff;
+}
+

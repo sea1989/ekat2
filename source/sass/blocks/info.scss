@@ -1,0 +1,33 @@
+.info {
+  background-color: #35008f;
+  min-height: 120px;
+  color: white;
+}
+
+.info__list {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  text-align: center;
+  padding: 32px 150px 32px;
+}
+
+.info__list-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.info__list-number {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: 0.045em;
+}
+
+.info__list-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
