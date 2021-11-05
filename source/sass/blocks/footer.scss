@@ -1,0 +1,12 @@
+.footer {
+  min-height: 200px;
+  background-color: #35008f;
+  padding: 30px 50px;
+}
+
+.footer__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+}
