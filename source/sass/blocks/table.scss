@@ -1,3 +1,87 @@
 .table {
   padding: 28px 50px;
 }
+
+.table__button {
+  background: #ffffff;
+  border: 2px solid rgba(70, 0, 190, 0.2);
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+  padding: 15px 30px;
+}
+
+.table__header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -5px;
+  margin: auto;
+  margin-bottom: 40px;
+  max-width: 1052px;
+}
+
+.table__button-wrapper {
+  display: flex;
+  gap: 10px;
+  margin-left: 30px;
+}
+
+.table__zero {
+  width: 160px;
+}
+
+.table__list {
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  padding: 0;
+  gap: 12px;
+  max-width: 1052px;
+}
+
+.table__list-item {
+  display: flex;
+  flex-direction: column;
+  max-width: 49%;
+  height: 600px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.table__list-item-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  padding-left: 20px;
+  margin-bottom: 0px;
+  margin-top: 40px;
+}
+
+.table__list__item-description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  padding-left: 20px;
+}
+
+.table__list-button {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  padding: 15px 30px;
+  display: flex;
+  margin: auto;
+  box-shadow: 1px 2px 10px 1px rgba(53, 0, 143, 0.7);
+  border-radius: 10px;
+}
