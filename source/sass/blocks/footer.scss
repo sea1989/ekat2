@@ -10,3 +10,28 @@
   justify-content: space-between;
   color: white;
 }
+
+.footer__avtor {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 21px;
+  width: 74%;
+}
+
+.footer__contact {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  padding-top: 20px;
+}
+
+
+.footer__contact svg {
+  margin-right: 10px;
+}
