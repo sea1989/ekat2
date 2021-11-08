@@ -44,6 +44,10 @@
   color: #ffffff;
 }
 
+.nav__link:hover {
+  border-bottom: 3px solid #be0078;
+}
+
 .promo {
   display: flex;
   padding: 190px 50px;
@@ -57,3 +61,12 @@
   color: #ffffff;
 }
 
+@media (max-width: 1023px) {
+  .nav {
+    gap: 20px;
+  }
+
+  .nav__item {
+    min-width: 50px;
+  }
+}

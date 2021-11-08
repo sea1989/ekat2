@@ -17,6 +17,12 @@
   padding: 15px 30px;
 }
 
+.table__button:hover {
+  border: 2px solid #35008f;
+  box-sizing: border-box;
+  box-shadow: 1px 2px 10px rgba(70, 0, 190, 0.25);
+}
+
 .table__header {
   display: flex;
   justify-content: space-between;
@@ -43,4 +49,10 @@
   padding: 0;
   gap: 12px;
   max-width: 1052px;
+}
+
+@media (max-width: 1023px) {
+  .table__zero {
+    display: none;
+  }
 }
