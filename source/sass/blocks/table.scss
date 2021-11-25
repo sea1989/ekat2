@@ -2,7 +2,26 @@
   padding: 28px 50px 0px;
 }
 
-.table__button {
+.table-sightseeing {
+  padding-top: 25px;
+}
+
+.table select,
+.table-filter__button {
+  background: #fff;
+  border: 2px solid #35008f;
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  align-items: center;
+  color: #000;
+  padding: 6px 15px;
+  margin-right: 10px;
+}
+
+table-filter__button .table__button {
   background: #ffffff;
   border: 2px solid rgba(70, 0, 190, 0.2);
   box-sizing: border-box;
@@ -32,6 +51,18 @@
   max-width: 1052px;
 }
 
+.table-filter {
+  display: flex;
+  margin-top: -5px;
+  margin: auto;
+  margin-bottom: 40px;
+  max-width: 1052px;
+}
+
+.table-sightseeing-filter {
+  margin-bottom: 30px;
+}
+
 .table__button-wrapper {
   display: flex;
   gap: 10px;
@@ -51,8 +82,35 @@
   max-width: 1052px;
 }
 
+.table-sightseeing__list {
+  gap: 10px 76px;
+}
+
 @media (max-width: 1023px) {
   .table__zero {
     display: none;
+  }
+
+  .table-sightseeing__list {
+    gap: 15px;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .table__list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .table-sightseeing__list {
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 520px) {
+  .table-sightseeing__list {
+    flex-direction: column;
+    align-items: center;
   }
 }
