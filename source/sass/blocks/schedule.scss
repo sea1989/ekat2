@@ -1,0 +1,44 @@
+.schedule {
+  display: flex;
+  flex-direction: column;
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+
+    margin: 0;
+    padding: 0;
+    gap: 10px 52px;
+
+    flex-wrap: wrap;
+    list-style: none;
+
+    max-height: 536px;
+  }
+
+  &__title {
+    margin: 0;
+    padding-bottom: 19px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 22px;
+  }
+
+  &__list-item {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 21px;
+    max-width: 470px;
+
+    & span {
+      color: #4600be;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 29px;
+    }
+  }
+}
